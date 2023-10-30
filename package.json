@@ -1,0 +1,25 @@
+{
+  "name": "repro_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"dependencies": {
+		"prettier": "^2.8.7",
+		"import-sort-style-panta": "0.0.1",
+		"prettier-plugin-import-sort": "0.0.7"
+	},
+  "author": "",
+  "license": "ISC",
+	"importSort": {
+		".ts, .tsx": {
+			"style": "panta",
+			"parser": "typescript"
+		},
+		".js, .jsx": {
+			"style": "panta"
+		}
+	}
+}
